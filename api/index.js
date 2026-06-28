@@ -12,7 +12,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: 'https://task-management-app-api-1hy6.onrender.com'
+    origin: 'https://task-management-app-1-85y8.onrender.com'
 }))
 
 
