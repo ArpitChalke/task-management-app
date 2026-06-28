@@ -28,6 +28,15 @@ const Navigation = () => {
             >
                 My Task
             </NavLink>
+            <NavLink
+                to={"https://github.com/ArpitChalke/task-management-app"}
+                target="_blank"
+                className={({ isActive }) =>
+                    isActive ? activeButtonClass : buttonClass
+                }
+            >
+                GitHub Repo
+            </NavLink>
         </div>
     );
 };
